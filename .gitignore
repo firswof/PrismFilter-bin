@@ -1,0 +1,8 @@
+﻿*.lic
+*.lic*
+*.bak
+logs/
+release/
+program/logs/
+program/imgui.ini
+program/prismfilter.ini

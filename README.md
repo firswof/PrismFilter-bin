@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 # 🎯 PrismFilter · 双色球过滤计算工作台
 
@@ -12,11 +12,13 @@
 
 ## 📥 下载
 
-**最新版**：前往 [发行版（Releases）页面](https://gitee.com/firswof/prism-filter-bin/releases)，下载最新发行版的程序附件（如 `PrismFilter.exe`）；历史版本在同一页面按版本归档。
+**最新版**：前往 [发行版（Releases）页面](https://github.com/firswof/PrismFilter-bin/releases)，下载最新发行版的程序附件（如 `PrismFilter.exe`）；历史版本在同一页面按版本归档。
 
 **示例方案**：[samples/示例方案.wof](samples/示例方案.wof) —— 下载后在程序中「打开方案」载入，即可体验完整过滤流程。
 
 > 下载后放到任意**可写目录**（建议不要放 `C:\Program Files`，更新替换需要写权限），双击运行即可——绿色单文件，无需安装。
+>
+> 💡 **绝大多数电脑开箱即用**。若双击时提示缺少 `VCRUNTIME140.dll` 等运行库（少数全新系统未自带），安装一次微软官方 [Visual C++ 可再发行程序包（x64）](https://aka.ms/vs/17/release/vc_redist.x64.exe) 即可解决，无需其它操作；若仍有问题，可到文末 QQ 群求助。
 
 ## 🔄 自动更新
 
@@ -105,6 +107,22 @@ C(33,6) = **1,107,568** 注全空间组合，多线程并行扫描，通常数�
 | 获取方式 | 程序内「帮助 → 授权与购买」：复制本机授权码 → 扫码付款（备注填授权码，或直接发给作者）→ 作者人工签发授权文件 |
 
 完整条款见 [license/EULA.md](license/EULA.md)。
+
+---
+
+## 💬 帮助与交流
+
+使用问题、授权签发进度查询、功能建议，欢迎加入 QQ 群 **「PrismFilter · 双色球过滤实验室」（群号 1125029248）**：
+
+<div align="center">
+
+![QQ 群二维码](contact/qq_qrcode.png)
+
+**扫码入群 · 程序无法启动时也可先装好运行库后在群内反馈**
+
+</div>
+
+> 授权购买仍以程序内「帮助 → 授权与购买」为准：复制本机授权码 → 扫码付款（备注授权码）→ 群内发给作者签发。
 
 ---
 

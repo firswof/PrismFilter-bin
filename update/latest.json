@@ -1,7 +1,7 @@
 ﻿{
   "version": "0.3.0",
   "notes": "v0.3.0 首个公开版本。\n- 全空间 1,107,568 注组合过滤，多线程数秒完成\n- 20 项特征约束 + 6 位逐位约束 + Lua 脚本钩子\n- 历史数据在线更新 / 走势图 / 命中回验 / 随机选号",
-  "url": "https://gitee.com/firswof/prism-filter-bin/releases/download/v0.3.0/PrismFilter.exe",
+  "url": "https://github.com/firswof/PrismFilter-bin/releases/download/v0.3.0/PrismFilter.exe",
   "sha256": "1cd30c0ca6a66cb7f89f033a1b05ef1859d7852f11416ef66fc02a8901c725ca",
   "mandatory": false
 }

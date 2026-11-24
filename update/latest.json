@@ -1,7 +1,7 @@
 ﻿{
-  "version": "0.3.1",
-  "notes": " v0.3.1\n### 新增\n- 历史数据页「选中」输入升级为切片语法：`10` 最近 10 期、`10:50` 期龄区间（0=最新一期，含头不含尾）、`:-5` 最旧端计数、端点可省略，悬停提示附完整示例。\n- 「按历史生成过滤」并入冷热号过滤段：按遗漏口径生成冷/温/热号码列表（热=遗漏≤5、温=6~14、冷=≥15，与程序冷热过滤同口径），列表上方注明定义与阈值；附带滚动统计的计数区间与 `red_check` 预剪枝逻辑，阈值与区间均为脚本内可改常量。\n- 生成脚本携带完整 PF 工具库（countIn/posIn/posNotIn/allIn/equ/like/cnt/sameLine 等，与过滤骨架同一份实现），支持在生成脚本上直接使用全部基础设施。\n- Lua 脚本编辑器支持 Shift+鼠标片选：先单击定起始，再按住 Shift 单击/拖动扩展选区。\n- 历史页「打包历史到方案」勾选偏好跨启动记忆。\n",
-  "url": "https://github.com/firswof/PrismFilter-bin/releases/download/v0.3.1/PrismFilter.exe",
-  "sha256": "27d554f912e8d8c7044e8c310d253be093c1976a07d358c0de273a3788c2bb33",
-  "mandatory": false
+  "version": "0.3.2",
+  "notes": "v0.3.2\n- 修复中文路径支持问题\n- 号码集合页四个列表支持批量导入/导出功能\n- 其他常规更新",
+  "url": "https://github.com/firswof/PrismFilter-bin/releases/download/v0.3.2/PrismFilter.exe",
+  "sha256": "8c8f1737ad76f0fe117c3386e1dc1be60801b4863b5297ec61b92b45d317dbb8",
+  "mandatory": true
 }

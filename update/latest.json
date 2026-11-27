@@ -1,7 +1,7 @@
 ﻿{
-  "version": "0.3.2",
-  "notes": "v0.3.2\n- 修复中文路径支持问题\n- 号码集合页四个列表支持批量导入/导出功能\n- 其他常规更新",
-  "url": "https://github.com/firswof/PrismFilter-bin/releases/download/v0.3.2/PrismFilter.exe",
-  "sha256": "8c8f1737ad76f0fe117c3386e1dc1be60801b4863b5297ec61b92b45d317dbb8",
-  "mandatory": true
+  "version": "0.3.3",
+  "notes": "v0.3.3\n- 修复开奖数据本地缓存（draw_cache.json）生成到程序目录上一级的问题\n- 开奖数据缓存更名为 history_cache.dat 并加密存储，防手动改动与破坏\n- 缓存现正确写入程序目录；已生成的错位缓存文件可手动删除\n- 其他常规更新",
+  "url": "https://github.com/firswof/PrismFilter-bin/releases/download/v0.3.3/PrismFilter.exe",
+  "sha256": "382a5232b602a6cc1eff6368867b055c967328a282199d3fc091b86bed13f807",
+  "mandatory": false
 }

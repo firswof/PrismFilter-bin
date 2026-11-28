@@ -1,7 +1,7 @@
 ﻿{
-  "version": "0.3.3",
-  "notes": "v0.3.3\n- 修复开奖数据本地缓存（draw_cache.json）生成到程序目录上一级的问题\n- 开奖数据缓存更名为 history_cache.dat 并加密存储，防手动改动与破坏\n- 缓存现正确写入程序目录；已生成的错位缓存文件可手动删除\n- 其他常规更新",
-  "url": "https://github.com/firswof/PrismFilter-bin/releases/download/v0.3.3/PrismFilter.exe",
-  "sha256": "382a5232b602a6cc1eff6368867b055c967328a282199d3fc091b86bed13f807",
+  "version": "0.3.4",
+  "notes": "v0.3.4\n- 兼容 Win7 环境：未装显卡驱动或显卡较旧时自动降级渲染，程序可正常启动与使用\n- 窗口大小持久化：退出时记住主窗口尺寸（非最大化），下次启动按此大小显示；初始窗口自适应屏幕，低分辨率下不再溢出\n- 其他常规更新",
+  "url": "https://github.com/firswof/PrismFilter-bin/releases/download/v0.3.4/PrismFilter.exe",
+  "sha256": "86e9c8d498e3b8f2378bc107a18720577457c5f33587c025263f6371f3b028ec",
   "mandatory": false
 }
